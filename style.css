@@ -1,0 +1,73 @@
+.aa {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: 5%;
+    display: grid;
+    color: white;
+    background-color: #007bff;
+}
+
+.h2 {
+    padding-top: 5%;
+    text-align: center;
+}
+
+.zdj {
+    border-radius: 50%;
+    margin-left: 25%;
+}
+
+.left {
+    border-radius: 0%;
+    margin-left: 25%;
+}
+
+@keyframes animacja {
+    from {
+        width: 800px;
+        height: 500px;
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+img:hover {
+    animation-name: animacja;
+    animation-duration: 500ms;
+}
+
+.img-animation {
+    overflow: hidden;
+}
+
+.div-border {
+    border: black;
+}
+
+.img-lew {
+    border-radius: 50%;
+    margin-left: 400px;
+}
+
+.img-zdjecia {
+    background-color: cornsilk;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: auto auto auto;
+    background-color: cornsilk;
+    padding: 2%;
+}
+
+.grid-item {
+    display: grid;
+}
+
+.footer {
+    border: black;
+    background-color: blanchedalmond;
+}
